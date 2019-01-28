@@ -53,3 +53,4 @@ docker secret rm jenkins-pass
 
 - [Viktor Farcic - Automating Jenkins Docker Setup](https://technologyconversations.com/2017/06/16/automating-jenkins-docker-setup/)
 - [Managing Docker Secrets](https://docs.docker.com/engine/swarm/secrets/)
+- [Miro Juuso - Building your first Docker image with Jenkins 2: Guide for developers](https://getintodevops.com/blog/building-your-first-docker-image-with-jenkins-2-guide-for-developers)
