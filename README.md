@@ -1,4 +1,4 @@
-# JenkinsWithDocker
+# Jenkins with Docker
 
 Repository showing how to setup Jenkins run on Docker.
 
@@ -33,7 +33,7 @@ printf "admin" | docker secret create jenkins-user -
 docker stack deploy -c jenkins.yml jenkins
 ```
 
-6. Open [Jenkins in browser](http://localhost:8080/). Login with username and password passed in secrets (eg. `admin`, `adnmin`).
+6. Open [Jenkins in browser](http://localhost:8080/). Login with username and password passed in secrets (eg. `admin`, `admin`).
 
 7. Stop Jenkins
 
