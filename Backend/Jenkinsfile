@@ -5,9 +5,7 @@ node {
         /* Let's make sure we have the repository cloned to our workspace */
 
         checkout scm
-        app.inside {
-            sh 'echo "Repository cloned"'
-        }
+        sh 'echo "Repository cloned"'
     }
 
     stage('Build image') {
@@ -15,18 +13,20 @@ node {
          * docker build on the command line */
 
         /* app = docker.build("oskardudycz/jenkins-test-backend") */
-        app.inside {
-            sh 'echo "Build passed"'
-        }
+        // app.inside {
+        //     sh 'echo "Build passed"'
+        // }
+        sh 'echo "Build passed
     }
 
     stage('Test image') {
         /* Ideally, we would run a test framework against our image.
          * For this example, we're using a Volkswagen-type approach ;-) */
 
-        app.inside {
-            sh 'echo "Tests passed"'
-        }
+        // app.inside {
+        //     sh 'echo "Tests passed"'
+        // }
+        sh 'echo "Tests passed"'
     }
 
     stage('Push image') {
@@ -39,8 +39,6 @@ node {
             app.push("latest")
         } */
 
-        app.inside {
-            sh 'echo "Pushed image"'
-        }
+        sh 'echo "Pushed image"'
     }
 }
