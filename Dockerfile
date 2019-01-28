@@ -11,4 +11,4 @@ COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 
 # Setup Jobs
-COPY Jobs /var/jenkins_home/jobs/
+COPY --chown=jenkins Jobs  /var/jenkins_home/jobs/
