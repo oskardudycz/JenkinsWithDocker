@@ -3,6 +3,11 @@ version: '3.1'
 services:
   main:
     image: oskardudycz/jenkins
+    # build: .
+    environment:
+      - DOCKER_SOCKET=/var/run/docker.sock
+      - DOCKER_GROUP=dockerhost
+      - JENKINS_USER=jenkins
     ports:
       - 8080:8080
       - 50000:50000

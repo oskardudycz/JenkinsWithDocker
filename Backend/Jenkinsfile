@@ -12,7 +12,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("oskardudycz/jenkins-test-backend")
+        app = docker.build("oskardudycz/jenkins-test-backend", "-f Backend/Dockerfile .")
         app.inside {
              sh 'echo "Build passed"'
         }
