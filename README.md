@@ -63,3 +63,4 @@ docker secret rm jenkins-pass
 - [Managing Docker Secrets](https://docs.docker.com/engine/swarm/secrets/)
 - [Miro Juuso - Building your first Docker image with Jenkins 2: Guide for developers](https://getintodevops.com/blog/building-your-first-docker-image-with-jenkins-2-guide-for-developers)
 - [Ryan J. McDonough - Creating containerized build environments with the Jenkins Pipeline plugin and Docker. Well, almost.](https://damnhandy.com/2016/03/06/creating-containerized-build-environments-with-the-jenkins-pipeline-plugin-and-docker-well-almost/)
+- [Maxfield Stewart/RiotGames - Revisiting Docker and Jenkins](https://engineering.riotgames.com/news/revisiting-docker-and-jenkins)
