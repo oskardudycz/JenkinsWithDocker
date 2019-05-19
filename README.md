@@ -67,3 +67,8 @@ docker secret rm jenkins-pass
 
 https://technologyconversations.com/2017/06/16/automating-jenkins-docker-setup/
 https://devblog.xero.com/ci-cd-with-jenkins-pipelines-part-2-managing-infrastructure-with-terraform-and-docker-bd4b81554aa7
+https://jamalshahverdiev.wordpress.com/2018/02/06/jenkins-build-artifacts-create-docker-image-and-deploy-over-ssh/
+http://stevetarver.github.io/2017/01/19/jenkins-in-docker.html
+https://www.ivankrizsan.se/2016/06/09/create-a-private-docker-registry
+https://medium.com/@gustavo.guss/jenkins-building-docker-image-and-sending-to-registry-64b84ea45ee9
+https://technology.riotgames.com/news/jenkins-docker-proxies-and-compose
