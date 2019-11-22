@@ -64,11 +64,10 @@ docker secret rm jenkins-pass
 - [Miro Juuso - Building your first Docker image with Jenkins 2: Guide for developers](https://getintodevops.com/blog/building-your-first-docker-image-with-jenkins-2-guide-for-developers)
 - [Ryan J. McDonough - Creating containerized build environments with the Jenkins Pipeline plugin and Docker. Well, almost.](https://damnhandy.com/2016/03/06/creating-containerized-build-environments-with-the-jenkins-pipeline-plugin-and-docker-well-almost/)
 - [Maxfield Stewart/RiotGames - Revisiting Docker and Jenkins](https://engineering.riotgames.com/news/revisiting-docker-and-jenkins)
-
-https://technologyconversations.com/2017/06/16/automating-jenkins-docker-setup/
-https://devblog.xero.com/ci-cd-with-jenkins-pipelines-part-2-managing-infrastructure-with-terraform-and-docker-bd4b81554aa7
-https://jamalshahverdiev.wordpress.com/2018/02/06/jenkins-build-artifacts-create-docker-image-and-deploy-over-ssh/
-http://stevetarver.github.io/2017/01/19/jenkins-in-docker.html
-https://www.ivankrizsan.se/2016/06/09/create-a-private-docker-registry
-https://medium.com/@gustavo.guss/jenkins-building-docker-image-and-sending-to-registry-64b84ea45ee9
-https://technology.riotgames.com/news/jenkins-docker-proxies-and-compose
+- https://technologyconversations.com/2017/06/16/automating-jenkins-docker-setup/
+- https://devblog.xero.com/ci-cd-with-jenkins-pipelines-part-2-managing-infrastructure-with-terraform-and-docker-bd4b81554aa7
+- https://jamalshahverdiev.wordpress.com/2018/02/06/jenkins-build-artifacts-create-docker-image-and-deploy-over-ssh/
+- http://stevetarver.github.io/2017/01/19/jenkins-in-docker.html
+- https://www.ivankrizsan.se/2016/06/09/create-a-private-docker-registry
+- https://medium.com/@gustavo.guss/jenkins-building-docker-image-and-sending-to-registry-64b84ea45ee9
+- https://technology.riotgames.com/news/jenkins-docker-proxies-and-compose
